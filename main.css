@@ -799,3 +799,11 @@ body{
 
 }
 
+@media(max-width: 1600px){
+    #seccion2{
+        #imagenes{
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+        }
+    }
+}
